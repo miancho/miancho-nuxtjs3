@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   modules: ['@nuxtjs/tailwindcss'],
   buildModules: ['@nuxt/postcss8'],
   build: {
+    transpile: ['@heroicons/vue'],
     postcss: {
       postcssOptions: {
         plugins: {
